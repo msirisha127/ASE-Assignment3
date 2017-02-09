@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<script src="fb.js"></script>
+<style>
+
+    body  {
+        background-image: url("sun.jpg");
+        background-color: #cccccc;
+    }
+
+    input[type=text], input[type=password] {
+        width: 150px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        border-radius: 25px;
+        width: 180px;
+    }
+
+label{
+    color: gold;
+}
+
+
+
+
+
+
+    .center {
+        margin-left:200px;
+        width: 60%;
+        margin-top:150px;
+
+        padding: 10px;
+    }
+h2{
+    color: cornsilk;
+}
+</style>
+<body>
+<div class="center">
+    <h2 align="center">Login Form</h2>
+
+    <form action="main.html">
+
+        <div class="container" align="center">
+            <label class="h"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br>
+            <button type="button" onClick="window.open('main.html')">LOGIN</button>
+<br>
+
+        </div>
+    </form>
+    <form onclick="login()" action="login.html">
+        <input type="image"  src="gm.png" alt="Submit" style="width:180px; margin-left: 290px; border-radius: 150px;  height:70px; ">
+
+    </form>
+</div>
+</body>
+</html>
+

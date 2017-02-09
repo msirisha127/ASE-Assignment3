@@ -1,0 +1,42 @@
+.form-control{
+    border-radius:8px;
+
+}
+.navbar{
+height: 150px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.navbar-brand{
+    color:white;
+    padding-left:37%;
+    font-family: Microsoft sans-serif;
+    font-size:35px;
+}
+.form-group{
+    margin-bottom:-12px;
+}
+#logout{
+    color: white;
+    padding-left: 35%;
+    font-family: Micro;
+    padding-top: 1.5%;
+    font-family: Microsoft sans-serif;
+    font-size:15px;
+}
+.glyphicon-off{
+    font-size:3px;
+}
+body{
+    background: url('sun.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    width:60%;
+}
+
+video{
+    margin-left:-160px;
+    margin-top:50px;
+}
